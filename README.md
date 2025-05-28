@@ -40,7 +40,6 @@ tensorboardX
 模型|acc|备注
 --|--|--
 TextCNN|91.22%|Kim 2014 经典的CNN文本分类
-TextRNN|91.12%|BiLSTM 
 TextRNN_Att|90.90%|BiLSTM+Attention
 TextRCNN|91.54%|BiLSTM+池化
 FastText|92.23%|bow+bigram+trigram， 效果出奇的好
@@ -56,9 +55,6 @@ bert和ERNIE模型代码我放到另外一个仓库了，传送门：[Bert-Chine
 # 训练并测试：
 # TextCNN
 python run.py --model TextCNN
-
-# TextRNN
-python run.py --model TextRNN
 
 # TextRNN_Att
 python run.py --model TextRNN_Att
